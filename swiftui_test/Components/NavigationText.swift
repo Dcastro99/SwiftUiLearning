@@ -7,12 +7,25 @@
 
 import SwiftUI
 
-struct NavigationText: View {
+struct NavigationTest: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                NavigationLink("Go to Second Page", destination: SecondPage())
+            }
+            .navigationTitle("First Page")
+        }
     }
 }
 
+struct SecondPage: View {
+    var body: some View {
+        VStack {
+            Text("Second Page Content")
+        }
+        .navigationTitle("Second Page")
+    }
+}
 #Preview {
-    NavigationText()
+    NavigationTest()
 }

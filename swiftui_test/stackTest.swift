@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct stackTest: View {
+    let nameList = ["Danny", "Bob", "Marry", "Jenny"]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+       
+            ScrollView {
+                VStack(spacing: 10) {
+                    ForEach(nameList, id: \.self) { name in
+                        Button(action: {
+                            // Handle button press
+                            print("Button pressed for \(name)")
+                        }) {
+                            Text(name)
+                                .padding()
+                                .background(Color.black)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                        }
+                    }
+                }
+        
+                .frame(width:500, height: 600)
+            .padding(8.0) // Add padding around ScrollView
+            .border(Color.black, width: 5)
+            
+        }
+    
     }
 }
 

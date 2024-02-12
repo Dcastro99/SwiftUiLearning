@@ -7,12 +7,33 @@
 
 import SwiftUI
 
+
+
 struct HomeView: View {
+    // MARK: PROPERTIES
+    @Binding var selectedTab: Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color.red
+            VStack{
+                Text("Home View")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                Button(action: {
+                    selectedTab = 2
+                }
+                       , label: {
+                    Text("Profile")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                })
+                .padding()
+                .background(Color.black)
+                .cornerRadius(10)
+            }
+        }
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(selectedTab: .constant(2) )
 }
