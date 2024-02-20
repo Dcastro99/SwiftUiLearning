@@ -24,6 +24,12 @@ struct formTest: View {
     
     // MARK: BODY CPONTENT
     
+    
+    //Danny C - Working copy - things to do:
+    /*
+    lkjflskjflajflakjf
+    */
+    
     func bodyContent(geometry: GeometryProxy) -> some View {
         let bgColor = #colorLiteral(red: 0.9246651786, green: 0.8929483754, blue: 0.8376240318, alpha: 1)
         let mainBG = #colorLiteral(red: 0.9914150834, green: 0.9771276116, blue: 0.9294666648, alpha: 1)
@@ -33,7 +39,7 @@ struct formTest: View {
             VStack {
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color(bgColor))
-                    .frame(width: min(geometry.size.width - 40, 390), height: min(geometry.size.height - 40, 700))
+                    .frame(width: min(geometry.size.width - 40, 390), height: min(geometry.size.height - 40, 700)) //RoundedRectangle
                     .overlay(
                         VStack(alignment: .center) {
                             Spacer().frame(height: 25)
@@ -65,7 +71,7 @@ struct formTest: View {
                             .autocapitalization(.none)
                             .textFieldStyle(MyTextFieldStyle())
                             .padding(.horizontal, 15)
-                            .foregroundColor(.black)
+                            .foregroundColor(.black) //TextField
                             
                             
                             
@@ -77,7 +83,7 @@ struct formTest: View {
                             )
                             .textFieldStyle(MyTextFieldStyle())
                             .padding(.horizontal, 15)
-                            .foregroundColor(.black)
+                            .foregroundColor(.black) //SecureField
                             
                             
                             Spacer().frame(maxHeight: 120)
@@ -93,11 +99,11 @@ struct formTest: View {
                                     .background(Color.black)
                                     .cornerRadius(10)
                             })
-                            .disabled(!isValid())
+                            .disabled(!isValid())//Button
                             Spacer()
-                        }
-                    )
-            }
+                        }// Vstack
+                    ) // overlay
+            } //VStack
         }
     }
     // MARK: FUNCTIONS
