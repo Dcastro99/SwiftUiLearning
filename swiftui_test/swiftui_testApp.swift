@@ -11,7 +11,11 @@ import SwiftUI
 struct swiftui_testApp: App {
     var body: some Scene {
         WindowGroup {
-            formTest()
+//            formTest()
+//            AppStorageTest()
+//            IntroView()
+//            AsyncImageTest()
+            FocusedStateTest()
         }
     }
 }
