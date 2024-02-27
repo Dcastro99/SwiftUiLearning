@@ -12,7 +12,7 @@ struct ButtonStyleTest: View {
         VStack{
             
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                Text("I Am A Button")
+                Text("I Am Button 1")
                     .frame(height: 55)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
             })
@@ -22,7 +22,7 @@ struct ButtonStyleTest: View {
             
             
             
-            Button("I Am A Button") {
+            Button("I Am Button 2") {
                 
             }
             .frame(height: 55)
@@ -30,21 +30,21 @@ struct ButtonStyleTest: View {
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
             
-            Button("I Am A Button") {
+            Button("I Am Button 3") {
                 
             }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .buttonStyle(.bordered)
             
-            Button("I Am A Button") {
+            Button("I Am Button 4") {
                 
             }
             .frame(height: 55)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
             .buttonStyle(.borderedProminent)
             
-            Button("I Am A Button") {
+            Button("I Am Button 5") {
                 
             }
             .frame(height: 55)
