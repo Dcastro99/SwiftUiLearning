@@ -8,15 +8,39 @@
 import SwiftUI
 
 struct NavigationStackTest: View {
+    let fruits: [String] = ["apple", "orange", "banana"]
+    
+    /*
+     NavigationStak(path:   ) pushes multiple screens at once. when you click back on the screen it moves backwards in the array untill completed and then finally back to the main screen.
+     */
+    
     var body: some View {
-        ScrollView{
-            VStack{
-                ForEach(0..<10){ v in
-                    NavigationLink(destination:{
-                        MySecondScreen(value: v)
-                    }) {
-                        Text("click here")
+        NavigationStack {
+            ScrollView {
+                VStack (spacing:20){
+                    
+                    ForEach(fruits, id: \.self){ fruit in
+                        NavigationLink(value: fruit) {
+                       Text(fruit)
+                        }
                     }
+                    
+                    
+                    
+                    ForEach(0..<10){ v in
+                        NavigationLink(value: v) {
+                            Text("click here \(v)")
+                        }
+                 
+                    }
+                   
+                }
+                .navigationTitle("Nav Test")
+                .navigationDestination(for: Int.self) { val in
+                    MySecondScreen(value: val)
+                }
+                .navigationDestination(for: String.self) { val in
+                    Text("\(val) Screen")
                 }
             }
         }

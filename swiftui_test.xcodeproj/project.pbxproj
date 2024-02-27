@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0940F82B890BA300957754 /* AnimatedTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0940F72B890BA300957754 /* AnimatedTest.swift */; };
+		DA0940FA2B89195B00957754 /* MenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0940F92B89195B00957754 /* MenuTest.swift */; };
+		DA0940FC2B891CFF00957754 /* PopOverNEWTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0940FB2B891CFF00957754 /* PopOverNEWTest.swift */; };
 		DA0994442B7AB4E5002711C6 /* pageTabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0994432B7AB4E5002711C6 /* pageTabViewTest.swift */; };
 		DA0994462B7BE44F002711C6 /* ifLetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0994452B7BE44F002711C6 /* ifLetTest.swift */; };
 		DA0A0C712B851D5D0042D5E0 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A0C702B851D5D0042D5E0 /* IntroView.swift */; };
@@ -22,6 +25,8 @@
 		DA0A0C852B87B6760042D5E0 /* GlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A0C842B87B6760042D5E0 /* GlowTest.swift */; };
 		DA0A0C872B87B9E00042D5E0 /* FocusedStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A0C862B87B9E00042D5E0 /* FocusedStateTest.swift */; };
 		DA0A0C892B87F0DF0042D5E0 /* NavigationStackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A0C882B87F0DF0042D5E0 /* NavigationStackTest.swift */; };
+		DA0A0C8B2B87FE1E0042D5E0 /* NavigationToolBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A0C8A2B87FE1E0042D5E0 /* NavigationToolBarTest.swift */; };
+		DA0A0C8D2B8802B30042D5E0 /* ResizableSheetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A0C8C2B8802B30042D5E0 /* ResizableSheetTest.swift */; };
 		DA1634682B6BFDD3005364D5 /* buttonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1634672B6BFDD3005364D5 /* buttonTest.swift */; };
 		DA16346A2B6C0A9E005364D5 /* ButtonPressActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1634692B6C0A9E005364D5 /* ButtonPressActions.swift */; };
 		DA16346D2B6C41CB005364D5 /* myTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA16346C2B6C41CB005364D5 /* myTextFields.swift */; };
@@ -43,6 +48,8 @@
 		DA616F4E2B83C8DC00FB84FF /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA616F4D2B83C8DC00FB84FF /* FruitModel.swift */; };
 		DA616F502B83C91200FB84FF /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA616F4F2B83C91200FB84FF /* FruitViewModel.swift */; };
 		DA616F522B83D21C00FB84FF /* EnviromentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA616F512B83D21C00FB84FF /* EnviromentTest.swift */; };
+		DA6BE8562B8CEBF2000C306F /* AnyLayoutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BE8552B8CEBF2000C306F /* AnyLayoutTest.swift */; };
+		DA6BE8582B8CFC0F000C306F /* NavigationSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BE8572B8CFC0F000C306F /* NavigationSplit.swift */; };
 		DAB503622B6820960038D338 /* stackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB503612B6820960038D338 /* stackTest.swift */; };
 		DAB503642B683DD30038D338 /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB503632B683DD30038D338 /* ResponseView.swift */; };
 		DAB503662B695ADF0038D338 /* formTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB503652B695ADF0038D338 /* formTest.swift */; };
@@ -81,6 +88,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0940F72B890BA300957754 /* AnimatedTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTest.swift; sourceTree = "<group>"; };
+		DA0940F92B89195B00957754 /* MenuTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTest.swift; sourceTree = "<group>"; };
+		DA0940FB2B891CFF00957754 /* PopOverNEWTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverNEWTest.swift; sourceTree = "<group>"; };
 		DA0994432B7AB4E5002711C6 /* pageTabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageTabViewTest.swift; sourceTree = "<group>"; };
 		DA0994452B7BE44F002711C6 /* ifLetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifLetTest.swift; sourceTree = "<group>"; };
 		DA0A0C702B851D5D0042D5E0 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -96,6 +106,8 @@
 		DA0A0C842B87B6760042D5E0 /* GlowTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowTest.swift; sourceTree = "<group>"; };
 		DA0A0C862B87B9E00042D5E0 /* FocusedStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedStateTest.swift; sourceTree = "<group>"; };
 		DA0A0C882B87F0DF0042D5E0 /* NavigationStackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTest.swift; sourceTree = "<group>"; };
+		DA0A0C8A2B87FE1E0042D5E0 /* NavigationToolBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToolBarTest.swift; sourceTree = "<group>"; };
+		DA0A0C8C2B8802B30042D5E0 /* ResizableSheetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetTest.swift; sourceTree = "<group>"; };
 		DA1634672B6BFDD3005364D5 /* buttonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTest.swift; sourceTree = "<group>"; };
 		DA1634692B6C0A9E005364D5 /* ButtonPressActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressActions.swift; sourceTree = "<group>"; };
 		DA16346C2B6C41CB005364D5 /* myTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTextFields.swift; sourceTree = "<group>"; };
@@ -117,6 +129,8 @@
 		DA616F4D2B83C8DC00FB84FF /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		DA616F4F2B83C91200FB84FF /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
 		DA616F512B83D21C00FB84FF /* EnviromentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentTest.swift; sourceTree = "<group>"; };
+		DA6BE8552B8CEBF2000C306F /* AnyLayoutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutTest.swift; sourceTree = "<group>"; };
+		DA6BE8572B8CFC0F000C306F /* NavigationSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplit.swift; sourceTree = "<group>"; };
 		DAB503612B6820960038D338 /* stackTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackTest.swift; sourceTree = "<group>"; };
 		DAB503632B683DD30038D338 /* ResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseView.swift; sourceTree = "<group>"; };
 		DAB503652B695ADF0038D338 /* formTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formTest.swift; sourceTree = "<group>"; };
@@ -214,6 +228,8 @@
 				DAB503672B6AFADA0038D338 /* scrollViewTest.swift */,
 				DA1634672B6BFDD3005364D5 /* buttonTest.swift */,
 				DAB503612B6820960038D338 /* stackTest.swift */,
+				DA6BE8572B8CFC0F000C306F /* NavigationSplit.swift */,
+				DA6BE8552B8CEBF2000C306F /* AnyLayoutTest.swift */,
 				DA1634722B6D6C95005364D5 /* isLoadingTest.swift */,
 				DA1634702B6D64BA005364D5 /* ifElseTest.swift */,
 				DAB503652B695ADF0038D338 /* formTest.swift */,
@@ -269,11 +285,13 @@
 				DA0994432B7AB4E5002711C6 /* pageTabViewTest.swift */,
 				DA616F512B83D21C00FB84FF /* EnviromentTest.swift */,
 				DA616F4F2B83C91200FB84FF /* FruitViewModel.swift */,
+				DA0940F92B89195B00957754 /* MenuTest.swift */,
 				DA616F4D2B83C8DC00FB84FF /* FruitModel.swift */,
 				DA0A0C842B87B6760042D5E0 /* GlowTest.swift */,
 				DA0A0C862B87B9E00042D5E0 /* FocusedStateTest.swift */,
 				DA0A0C7C2B86A5B50042D5E0 /* TextSelectionTest.swift */,
 				DA616F492B7C05F000FB84FF /* ModelTest.swift */,
+				DA0940F72B890BA300957754 /* AnimatedTest.swift */,
 				DA616F4B2B7C157800FB84FF /* ViewModelTest.swift */,
 				DA16346E2B6D4C43005364D5 /* extractTest.swift */,
 				DA1634852B72B9A0005364D5 /* ErrorAlert.swift */,
@@ -283,7 +301,10 @@
 				DAE04CB82B7A9420008A806D /* tabViewTest.swift */,
 				DA0A0C822B87B2F80042D5E0 /* BadgesTest.swift */,
 				DAE04CB42B76CE8D008A806D /* datePickertest.swift */,
+				DA0A0C8C2B8802B30042D5E0 /* ResizableSheetTest.swift */,
 				DA0A0C882B87F0DF0042D5E0 /* NavigationStackTest.swift */,
+				DA0A0C8A2B87FE1E0042D5E0 /* NavigationToolBarTest.swift */,
+				DA0940FB2B891CFF00957754 /* PopOverNEWTest.swift */,
 				DA16347E2B718615005364D5 /* popOverTest.swift */,
 				DA16347C2B716C6E005364D5 /* SheetsTest.swift */,
 				DA1634762B71547E005364D5 /* transitionsTest.swift */,
@@ -425,9 +446,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6BE8562B8CEBF2000C306F /* AnyLayoutTest.swift in Sources */,
 				DAB90EDB2B61BA3A00EC7C47 /* ContentView.swift in Sources */,
 				DA0A0C852B87B6760042D5E0 /* GlowTest.swift in Sources */,
 				DA616F522B83D21C00FB84FF /* EnviromentTest.swift in Sources */,
+				DA6BE8582B8CFC0F000C306F /* NavigationSplit.swift in Sources */,
 				DA616F502B83C91200FB84FF /* FruitViewModel.swift in Sources */,
 				DA0A0C832B87B2F80042D5E0 /* BadgesTest.swift in Sources */,
 				DAE04CBB2B7A9675008A806D /* HomeView.swift in Sources */,
@@ -438,9 +461,13 @@
 				DAB503642B683DD30038D338 /* ResponseView.swift in Sources */,
 				DA0A0C872B87B9E00042D5E0 /* FocusedStateTest.swift in Sources */,
 				DA257CE02B8518A10006086D /* AppStorageTest.swift in Sources */,
+				DA0A0C8B2B87FE1E0042D5E0 /* NavigationToolBarTest.swift in Sources */,
 				DA1634862B72B9A0005364D5 /* ErrorAlert.swift in Sources */,
 				DA0A0C732B851F500042D5E0 /* OnboardingView.swift in Sources */,
+				DA0940F82B890BA300957754 /* AnimatedTest.swift in Sources */,
 				DA16347D2B716C6E005364D5 /* SheetsTest.swift in Sources */,
+				DA0940FC2B891CFF00957754 /* PopOverNEWTest.swift in Sources */,
+				DA0A0C8D2B8802B30042D5E0 /* ResizableSheetTest.swift in Sources */,
 				DA1634822B719078005364D5 /* navigatioinTest.swift in Sources */,
 				DA0A0C712B851D5D0042D5E0 /* IntroView.swift in Sources */,
 				DA16348A2B73F56F005364D5 /* ActionSheetTest.swift in Sources */,
@@ -468,6 +495,7 @@
 				DACB48CF2B6435CF0027FFD9 /* backgroundTest.swift in Sources */,
 				DA0A0C7B2B867AF60042D5E0 /* BackgroundMaterialsTest.swift in Sources */,
 				DA0A0C792B86749B0042D5E0 /* AsyncImageTest.swift in Sources */,
+				DA0940FA2B89195B00957754 /* MenuTest.swift in Sources */,
 				DA616F4C2B7C157800FB84FF /* ViewModelTest.swift in Sources */,
 				DAE04CB72B7A8540008A806D /* stepperTest.swift in Sources */,
 				DA16346D2B6C41CB005364D5 /* myTextFields.swift in Sources */,
